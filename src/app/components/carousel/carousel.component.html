@@ -1,5 +1,5 @@
-<div>
-    <ngb-carousel *ngIf="images">
+<div class="carousel">
+    <ngb-carousel *ngIf="images"  [showNavigationArrows]="false" [showNavigationIndicators]="false">
         <ng-template ngbSlide>
             <div class="picsum-img-wrapper">
                 <img [src]="images[0]" alt="Random first slide">
